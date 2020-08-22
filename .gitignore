@@ -1,0 +1,7 @@
+node_modules/
+temp/
+*.bat
+
+# IntellijIdea files
+.idea/
+*/scss-comb/
