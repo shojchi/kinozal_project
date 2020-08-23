@@ -2,7 +2,7 @@
   text-shadow: 0 0 5px black, 0 0 20px black;
 }
 
-.header {
+.header, .main, .left-sidebar {
   margin-bottom: 80.0px;
 }
 
@@ -31,6 +31,25 @@
 .navbar-toggle {
   float: none;
   margin-right: 0;
+}
+
+.panel {
+  border: none;
+  background-color: #ebebeb;
+  margin-bottom: 30px;
+}
+
+.panel-body {
+  border: 1px solid #dddddd;
+  border-radius: 0 0 4px 4px;
+}
+
+.panel-info > .panel-heading {
+  color: #ffffff;
+  background-color: #df8a13;
+  border: none;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
 }
 
 html {
@@ -83,6 +102,10 @@ h2 {
   display: block;
   font-size: 1.15rem;
   letter-spacing: 0.2em;
+}
+
+.left-sidebar .panel:last-of-type {
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
