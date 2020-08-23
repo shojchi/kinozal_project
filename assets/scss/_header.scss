@@ -1,32 +1,44 @@
-.header {
+.header
+{
     @extend %margin-bottom-lg;
 }
 
-.header-logo {
+.header-logo
+{
     padding: 100px 0;
+
     text-align: center;
+
     background-color: $color-dark;
     background-image: url(../img/header-bg.jpg);
     background-position: 50% 50%;
     background-size: cover;
 
-    &__title {
-        color: $color-accent;
-        display: block;
+    &__title
+    {
         font-family: $font-header;
-
         font-size: 3.5rem;
-        letter-spacing: 0.33em;
+
+        display: block;
+
         margin-right: -$gap;
+
+        letter-spacing: .33em;
+
+        color: $color-accent;
 
         @extend %text-shadow;
     }
 
-    &__description {
-        color: $color-light;
-        display: block;
+    &__description
+    {
         font-size: 1.15rem;
-        letter-spacing: 0.2em;
+
+        display: block;
+
+        letter-spacing: .2em;
+
+        color: $color-light;
 
         @extend %text-shadow;
     }

@@ -8,8 +8,8 @@
 
 .navbar-inverse {
   margin-bottom: 0;
-  background-color: #191919;
   border-color: transparent;
+  background-color: #191919;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -34,9 +34,9 @@
 }
 
 .panel {
+  margin-bottom: 30px;
   border: none;
   background-color: #ebebeb;
-  margin-bottom: 30px;
 }
 
 .panel-body {
@@ -45,11 +45,15 @@
 }
 
 .panel-info > .panel-heading {
-  color: #ffffff;
-  background-color: #df8a13;
-  border: none;
   font-size: 1.2rem;
-  letter-spacing: 0.1em;
+  letter-spacing: .1em;
+  color: #fff;
+  border: none;
+  background-color: #df8a13;
+}
+
+.input-group-lg > .form-control {
+  font-size: .875rem;
 }
 
 html {
@@ -89,23 +93,32 @@ h2 {
 }
 
 .header-logo__title {
-  color: #df8a13;
-  display: block;
   font-family: "PT Serif", serif;
   font-size: 3.5rem;
-  letter-spacing: 0.33em;
+  display: block;
   margin-right: -15px;
+  letter-spacing: .33em;
+  color: #df8a13;
 }
 
 .header-logo__description {
-  color: #ffffff;
-  display: block;
   font-size: 1.15rem;
-  letter-spacing: 0.2em;
+  display: block;
+  letter-spacing: .2em;
+  color: #fff;
 }
 
 .left-sidebar .panel:last-of-type {
   margin-bottom: 0;
+}
+
+.vertical-slider {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.vertical-slider img {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
