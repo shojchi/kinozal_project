@@ -1,0 +1,26 @@
+html {
+    font-size: $font-size;
+    overflow-y: scroll;
+}
+
+body {
+    font-family: $font-main;
+    font-size: 1rem;
+
+}
+a {
+    color: $color-primary;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: $color-accent;
+    }
+}
+
+h1 {
+    font-family: $font-header;
+}
+
+h2 {
+    font-family: $font-header;
+}
