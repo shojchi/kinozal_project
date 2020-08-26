@@ -129,6 +129,11 @@
             border-radius: 0;
         }
 
+        &:last-child {
+            border-bottom: none;
+            border-radius: 0;
+        }
+
         &:hover,
         &:focus {
             color: #ffffff !important;

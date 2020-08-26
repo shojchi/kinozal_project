@@ -1,0 +1,30 @@
+.embed-responsive {
+    border: 1px solid #dddddd;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
+
+.film-trailer {
+    &-about {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        font-size: 1.2em;
+
+        &__item {
+            &:not(:last-of-type) {
+                margin-right: 15px;
+            }
+        }
+
+        &__badge {
+            font-size: 0.8em;
+        }
+    }
+
+}
+
+.film-comment-form {
+    &__button {
+        float: right;
+    }
+}

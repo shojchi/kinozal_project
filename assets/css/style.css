@@ -116,6 +116,11 @@
   text-align: center;
 }
 
+.well {
+  border-color: #dddddd;
+  background-color: #f1f1f1;
+}
+
 html {
   font-size: 16px;
   overflow-y: scroll;
@@ -241,6 +246,30 @@ section {
 
 .film-news-item:hover .btn-warning {
   background-color: #df8a13;
+}
+
+.embed-responsive {
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.film-trailer-about {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  font-size: 1.2em;
+}
+
+.film-trailer-about__item:not(:last-of-type) {
+  margin-right: 15px;
+}
+
+.film-trailer-about__badge {
+  font-size: 0.8em;
+}
+
+.film-comment-form__button {
+  float: right;
 }
 
 .left-sidebar .panel:last-of-type {
@@ -371,6 +400,11 @@ section {
 
 .top-films__item:first-child {
   border-top: none;
+  border-radius: 0;
+}
+
+.top-films__item:last-child {
+  border-bottom: none;
   border-radius: 0;
 }
 
