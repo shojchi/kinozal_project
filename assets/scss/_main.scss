@@ -1,6 +1,14 @@
 .main
 {
     @extend %margin-bottom-lg;
+
+    .site-search {
+        margin-bottom: $gap * 3;
+    }
+
+    .user-login {
+        margin-bottom: $gap * 4;
+    }
 }
 
 .film-news-item h3 > a {

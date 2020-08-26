@@ -198,6 +198,14 @@ section {
   color: #ffffff;
 }
 
+.main .site-search {
+  margin-bottom: 45px;
+}
+
+.main .user-login {
+  margin-bottom: 60px;
+}
+
 .film-news-item h3 > a {
   -webkit-transition: color 0.25s;
   -o-transition: color 0.25s;
