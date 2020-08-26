@@ -1,0 +1,27 @@
+.footer {
+    padding-top: 45px;
+    color: #fbfbfb;
+    background-color: #232323;
+
+    & ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    & a {
+        color: #777777;
+
+        &:hover {
+            color: $color-light;
+        }
+    }
+
+    &-fifth {
+        margin: 20px 0;
+        text-align: center;
+        
+        & a {
+            color: #fbfbfb;
+        }
+    }
+}

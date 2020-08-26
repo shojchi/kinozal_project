@@ -19,3 +19,125 @@
         width: 100%;
     }
 }
+
+.user-login {
+    position: relative;
+
+    &__tabs {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        border: none;
+    
+        & a {
+            padding: 14px 5px 11px !important;
+            color: #dddddd;
+            border: none !important;
+            background-color: transparent !important;
+    
+            &:hover,
+            &:focus {
+                color: #DDDDDD;
+            }
+        }
+    
+        & .active a {
+            color: $color-light !important;
+        }
+    }
+}
+
+.site-news-item {
+    position: relative;
+    clear: both;
+
+    &__image {
+        float: left;
+        width: 75px;
+        margin: 0 10px 10px 0;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+
+        & a {
+            transition: color 0.25s;
+            
+            @include block-shortener(1rem, 1.5, 50px, 2);
+        }
+    }
+
+    &__date {
+        text-align: right;
+        color: #909090;
+        font-size: 0.8rem;
+    }
+
+    &:not(:last-child) {
+        min-height: 85px;
+        margin-bottom: 15px;
+
+        &::after {
+            position: absolute;
+            right: 0;
+            bottom: -5px;
+            width: calc(100% - 85px);
+            height: 1px;
+            content: "";
+            background-color: #dddddd;  
+        }
+    }
+
+    &:hover {
+        .thumbnail {
+            background-color: $color-accent;
+            border-color: $color-accent;
+        }
+        .site-news-item__title a {
+            color: $color-accent;
+        }
+    }
+}
+
+.top-films {
+    &__body {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    &__list {
+        margin-bottom: 0;
+    }
+
+    &__badge {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+    }
+
+    &__item {
+        margin-right: -1px;
+        margin-left: -1px;
+        padding-right: 55px;
+        transition: none;
+        color: #165690 !important;
+        background-color: transparent;
+    
+        &:first-child {
+            border-top: none;
+            border-radius: 0;
+        }
+
+        &:hover,
+        &:focus {
+            color: #ffffff !important;
+            border-color: #df8a13;
+            background-color: #df8a13 !important;
+
+            & .badge {
+                background-color: #232323;
+            }
+        }
+    }
+}
