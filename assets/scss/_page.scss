@@ -11,6 +11,8 @@
         font-size: 1.2em;
 
         &__item {
+            white-space: nowrap;
+            
             &:not(:last-of-type) {
                 margin-right: 15px;
             }

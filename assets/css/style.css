@@ -260,6 +260,10 @@ section {
   font-size: 1.2em;
 }
 
+.film-trailer-about__item {
+  white-space: nowrap;
+}
+
 .film-trailer-about__item:not(:last-of-type) {
   margin-right: 15px;
 }
